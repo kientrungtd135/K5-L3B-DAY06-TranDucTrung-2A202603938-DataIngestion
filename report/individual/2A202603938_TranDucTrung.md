@@ -2,8 +2,6 @@
 
 **Học viên:** Trần Đức Trung · **MSSV:** 2A202603938 · **Lớp:** L3B  
 **Repository:** [K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion](https://github.com/kientrungtd135/K5-L3B-DAY06-TranDucTrung-2A202603938-DataIngestion)  
-**Ngày lập báo cáo:** 2026-11-14  
-**Commit chốt bài:** f9f84ebe96f559b69c50fd3052354ca972950389
 
 ## 1. Dữ liệu và pipeline
 

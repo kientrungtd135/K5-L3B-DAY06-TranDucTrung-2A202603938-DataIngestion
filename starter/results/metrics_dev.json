@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026-11-14T05:00:29.743390+00:00",
+  "evaluated_split": "dev",
+  "test_retrieval_performed": false,
+  "query_count": 15,
+  "trace_count": 45,
+  "retrieval_metrics": {
+    "A": {
+      "dev": {
+        "N": 15,
+        "hit@1": {
+          "hits": 9,
+          "denominator": 15,
+          "rate": 0.6
+        },
+        "hit@3": {
+          "hits": 11,
+          "denominator": 15,
+          "rate": 0.7333333333333333
+        }
+      }
+    },
+    "B": {
+      "dev": {
+        "N": 15,
+        "hit@1": {
+          "hits": 14,
+          "denominator": 15,
+          "rate": 0.9333333333333333
+        },
+        "hit@3": {
+          "hits": 15,
+          "denominator": 15,
+          "rate": 1.0
+        }
+      }
+    },
+    "C": {
+      "dev": {
+        "N": 15,
+        "hit@1": {
+          "hits": 14,
+          "denominator": 15,
+          "rate": 0.9333333333333333
+        },
+        "hit@3": {
+          "hits": 15,
+          "denominator": 15,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "chunk_statistics": {
+    "A": {
+      "chunk_count": 562,
+      "source_content_characters": 247941,
+      "chunk_text_characters": 274541,
+      "chunk_length_characters": {
+        "min": 61,
+        "median": 500.0,
+        "p95": 500,
+        "max": 500,
+        "mean": 488.5071174377224
+      }
+    },
+    "B": {
+      "chunk_count": 701,
+      "source_content_characters": 247941,
+      "chunk_text_characters": 246977,
+      "chunk_length_characters": {
+        "min": 5,
+        "median": 397,
+        "p95": 499,
+        "max": 500,
+        "mean": 352.320970042796
+      }
+    },
+    "C": {
+      "chunk_count": 701,
+      "source_content_characters": 247941,
+      "chunk_text_characters": 246977,
+      "chunk_length_characters": {
+        "min": 5,
+        "median": 397,
+        "p95": 499,
+        "max": 500,
+        "mean": 352.320970042796
+      }
+    }
+  },
+  "resources": {
+    "timings_seconds": {
+      "preflight_validation": 0.046791300002951175,
+      "chunk_generation": {
+        "A": 0.007033600006252527,
+        "B": 0.011243499990087003,
+        "C": 0.0
+      },
+      "chunk_generation_note": "C reused B chunks; no independent chunking run occurred.",
+      "dimension_probe": 2.954180400003679,
+      "document_embedding": {
+        "A": 14.242071599990595,
+        "B": 38.949923800013494,
+        "C": 0.0,
+        "C_note": "C reused B document vectors; no independent C embedding run occurred."
+      },
+      "query_embedding_shared_across_strategies": {
+        "total": 10.271859000058612,
+        "per_question": {
+          "q01": 0.7601921999885235,
+          "q02": 0.6923910000186879,
+          "q03": 0.5279824999743141,
+          "q04": 0.47732250002445653,
+          "q05": 0.8752268000098411,
+          "q06": 0.9360221999813803,
+          "q07": 0.5046548999962397,
+          "q08": 0.702099400019506,
+          "q09": 0.7417772999906447,
+          "q10": 0.5518214000039734,
+          "q11": 0.5111405000207014,
+          "q12": 0.6707571000151802,
+          "q13": 0.7930629000184126,
+          "q14": 1.0590622999879997,
+          "q15": 0.4683460000087507
+        }
+      },
+      "schema_initialization": 0.1324785999895539,
+      "storage_initial_upsert": {
+        "A": 1.0860671999980696,
+        "B": 1.1748670999950264,
+        "C": 0.9671673999982886
+      },
+      "storage_idempotent_reload": {
+        "A": 0.774371199979214,
+        "B": 1.0084767000225838,
+        "C": 0.9068479999841657
+      },
+      "retrieval_by_strategy": {
+        "A": 0.4492913999129087,
+        "B": 0.4540944000473246,
+        "C": 0.424290299997665
+      },
+      "embedding_total": 66.41803480006638,
+      "elapsed_through_retrieval_and_selection": 74.45816340000601
+    },
+    "api_usage": {
+      "dimension_probe": {
+        "sdk_request_calls": 1,
+        "usage_available": true,
+        "prompt_tokens": 3,
+        "total_tokens": 3,
+        "estimated_cost_usd": 0.00024,
+        "cost_estimation": "Sum per response of max(prompt_tokens * $0.0448/1M, $0.00024 minimum/request)."
+      },
+      "document_embeddings": {
+        "A": {
+          "sdk_request_calls": 5,
+          "usage_available": true,
+          "prompt_tokens": 57444,
+          "total_tokens": 57444,
+          "estimated_cost_usd": 0.00258936,
+          "cost_estimation": "Sum per response of max(prompt_tokens * $0.0448/1M, $0.00024 minimum/request)."
+        },
+        "B": {
+          "sdk_request_calls": 6,
+          "usage_available": true,
+          "prompt_tokens": 51555,
+          "total_tokens": 51555,
+          "estimated_cost_usd": 0.00237494,
+          "cost_estimation": "Sum per response of max(prompt_tokens * $0.0448/1M, $0.00024 minimum/request)."
+        },
+        "C": {
+          "sdk_request_calls": 0,
+          "usage_available": true,
+          "prompt_tokens": 0,
+          "total_tokens": 0,
+          "estimated_cost_usd": 0.0,
+          "note": "No separate C document embedding; exact B vectors were reused."
+        }
+      },
+      "dev_query_embeddings_shared": {
+        "sdk_request_calls": 15,
+        "usage_available": true,
+        "prompt_tokens": 343,
+        "total_tokens": 343,
+        "estimated_cost_usd": 0.0036,
+        "cost_estimation": "Sum per response of max(prompt_tokens * $0.0448/1M, $0.00024 minimum/request)."
+      },
+      "total": {
+        "sdk_request_calls": 27,
+        "usage_available": true,
+        "prompt_tokens": 109345,
+        "total_tokens": 109345,
+        "estimated_cost_usd": 0.0088043,
+        "cost_estimation": "Sum per response of max(prompt_tokens * $0.0448/1M, $0.00024 minimum/request)."
+      },
+      "request_count_note": "Counts calls to OpenAI SDK embeddings.create; SDK-internal HTTP retries are not separately exposed.",
+      "cost_note": "Estimated from CKEY's listed input price/minimum charge, not provider billing records."
+    }
+  },
+  "database_versions": {
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7"
+  },
+  "storage_check": {
+    "table": "public.day6_chunks",
+    "initial_row_counts": {
+      "B": 701,
+      "C": 701,
+      "A": 562
+    },
+    "after_identical_reload": {
+      "B": 701,
+      "C": 701,
+      "A": 562
+    },
+    "identical_reload_did_not_increase_rows": true,
+    "obsolete_non_corpus_rows_pruned_from_A_B_C": 0
+  },
+  "selection": {
+    "selection_rule": "DEV: Evidence Hit@3 descending, Hit@1 descending, stored chunk count ascending.",
+    "tie_break_order": [
+      "A",
+      "B",
+      "C"
+    ],
+    "tie_breaker_applied": "Tie among B, C on all metric criteria; fixed order A, B, C selected B.",
+    "selected_strategy": "B",
+    "ranking": [
+      {
+        "strategy": "B",
+        "evidence_hit_at_3": {
+          "hits": 15,
+          "denominator": 15,
+          "rate": 1.0
+        },
+        "hit_at_1": {
+          "hits": 14,
+          "denominator": 15,
+          "rate": 0.9333333333333333
+        },
+        "stored_chunks": 701
+      },
+      {
+        "strategy": "C",
+        "evidence_hit_at_3": {
+          "hits": 15,
+          "denominator": 15,
+          "rate": 1.0
+        },
+        "hit_at_1": {
+          "hits": 14,
+          "denominator": 15,
+          "rate": 0.9333333333333333
+        },
+        "stored_chunks": 701
+      },
+      {
+        "strategy": "A",
+        "evidence_hit_at_3": {
+          "hits": 11,
+          "denominator": 15,
+          "rate": 0.7333333333333333
+        },
+        "hit_at_1": {
+          "hits": 9,
+          "denominator": 15,
+          "rate": 0.6
+        },
+        "stored_chunks": 562
+      }
+    ],
+    "test_used_for_selection": false
+  }
+}

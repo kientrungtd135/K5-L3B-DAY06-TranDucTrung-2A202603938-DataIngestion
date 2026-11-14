@@ -1,0 +1,763 @@
+{
+  "counting_rule": "One complete independent Markdown article body is one source unit, not a PDF page. Header metadata is excluded from content counts. Line boundaries are 1-based and inclusive.",
+  "normalization": "NFC Unicode; normalize line endings and horizontal whitespace; preserve paragraph breaks; trim outer whitespace.",
+  "accessed_at_note": "Time the local snapshot was read. Original web access time is unknown.",
+  "source_count": 30,
+  "unit_count": 30,
+  "category_counts": {
+    "business": 15,
+    "technology": 15
+  },
+  "sources": [
+    {
+      "source_id": "doc_0002",
+      "title": "ASX set to drop as Wall Street’s September slump deepens",
+      "source_path_or_url": "https://www.smh.com.au/business/markets/asx-set-to-drop-as-wall-street-s-september-slump-deepens-20230927-p5e7v7.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+      "local_path": "data/corpus/business/doc_0002_ASX_set_to_drop_as_Wall_Street_s_September_slump_deepens.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "The Sydney Morning Herald",
+        "author": "Stan Choe",
+        "published": "2023-09-26T19:11:30+00:00",
+        "url": "https://www.smh.com.au/business/markets/asx-set-to-drop-as-wall-street-s-september-slump-deepens-20230927-p5e7v7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0002:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 23,
+          "char_count": 5649
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0003",
+      "title": "Amazon sellers sound off on the FTC's 'long-overdue' antitrust case",
+      "source_path_or_url": "https://www.cnbc.com/2023/10/06/amazon-sellers-sound-off-on-the-ftcs-long-overdue-antitrust-case.html",
+      "local_path": "data/corpus/business/doc_0003_Amazon_sellers_sound_off_on_the_FTC_s_long-overdue_antitrust.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Cnbc | World Business News Leader",
+        "author": "Unknown",
+        "published": "2023-10-06T21:31:00+00:00",
+        "url": "https://www.cnbc.com/2023/10/06/amazon-sellers-sound-off-on-the-ftcs-long-overdue-antitrust-case.html"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0003:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 35,
+          "char_count": 9801
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0028",
+      "title": "How ego and fear fuelled the rise of artificial intelligence",
+      "source_path_or_url": "https://www.theage.com.au/business/entrepreneurship/how-ego-and-fear-fuelled-the-rise-of-artificial-intelligence-20231205-p5ep7j.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+      "local_path": "data/corpus/business/doc_0028_How_ego_and_fear_fuelled_the_rise_of_artificial_intelligence.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "The Age",
+        "author": "Cade Metz, Karen Weise, Nico Grant and Mike Isaac",
+        "published": "2023-12-09T18:30:00+00:00",
+        "url": "https://www.theage.com.au/business/entrepreneurship/how-ego-and-fear-fuelled-the-rise-of-artificial-intelligence-20231205-p5ep7j.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0028:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 47,
+          "char_count": 21897
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0029",
+      "title": "ASX set for bright start despite Wall Street slip; $A drops",
+      "source_path_or_url": "https://www.smh.com.au/business/markets/asx-set-for-bright-start-a-drops-20231206-p5epbi.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+      "local_path": "data/corpus/business/doc_0029_ASX_set_for_bright_start_despite_Wall_Street_slip_A_drops.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "The Sydney Morning Herald",
+        "author": "Stan Choe",
+        "published": "2023-12-05T21:51:55+00:00",
+        "url": "https://www.smh.com.au/business/markets/asx-set-for-bright-start-a-drops-20231206-p5epbi.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0029:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 21,
+          "char_count": 5542
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0030",
+      "title": "ASX set to open higher as Wall Street rebounds; $A rises",
+      "source_path_or_url": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-as-wall-street-steadies-a-rises-20231005-p5e9va.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+      "local_path": "data/corpus/business/doc_0030_ASX_set_to_open_higher_as_Wall_Street_rebounds_A_rises.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "The Age",
+        "author": "Stan Choe",
+        "published": "2023-10-04T21:01:01+00:00",
+        "url": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-as-wall-street-steadies-a-rises-20231005-p5e9va.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0030:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 25,
+          "char_count": 6709
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0032",
+      "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+      "source_path_or_url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/",
+      "local_path": "data/corpus/business/doc_0032_Is_Sam_Bankman-Fried_a_bad_man_or_a_good_boy_Lawyers_swap_op.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Fortune",
+        "author": "Ben Weiss",
+        "published": "2023-10-04T23:32:53+00:00",
+        "url": "https://fortune.com/crypto/2023/10/04/sam-bankman-fried-lawyers-opening-statements-witnesses-marc-antoine-julliard-adam-yedidia-ftx-commodities-trader-developer/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0032:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 59,
+          "char_count": 5911
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0074",
+      "title": "Psagot worth 80% less since Rani Zim bought it",
+      "source_path_or_url": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS",
+      "local_path": "data/corpus/business/doc_0074_Psagot_worth_80_less_since_Rani_Zim_bought_it.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Globes English | Israel Business Arena",
+        "author": "Roi Weinberger",
+        "published": "2023-11-05T13:10:32+00:00",
+        "url": "https://en.globes.co.il/en/article-1001461693#utm_source=RSS"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0074:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 47,
+          "char_count": 6734
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0075",
+      "title": "ASX to open lower; Wall Street falls as the clamp tightens from rising bond yields",
+      "source_path_or_url": "https://www.theage.com.au/business/markets/asx-to-open-lower-wall-street-falls-as-the-clamp-tightens-from-rising-bond-yields-20231013-p5eby7.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+      "local_path": "data/corpus/business/doc_0075_ASX_to_open_lower_Wall_Street_falls_as_the_clamp_tightens_fr.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "The Age",
+        "author": "STAN CHOE",
+        "published": "2023-10-12T20:00:32+00:00",
+        "url": "https://www.theage.com.au/business/markets/asx-to-open-lower-wall-street-falls-as-the-clamp-tightens-from-rising-bond-yields-20231013-p5eby7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0075:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 23,
+          "char_count": 6100
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0079",
+      "title": "Israel's defense undone by reliance on technology",
+      "source_path_or_url": "https://en.globes.co.il/en/article-1001461695#utm_source=RSS",
+      "local_path": "data/corpus/business/doc_0079_Israel_s_defense_undone_by_reliance_on_technology.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Globes English | Israel Business Arena",
+        "author": "Assaf Gilead",
+        "published": "2023-11-05T13:35:33+00:00",
+        "url": "https://en.globes.co.il/en/article-1001461695#utm_source=RSS"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0079:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 83,
+          "char_count": 21753
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0086",
+      "title": "‘AfroFuture’s vision is to bring African art, cuisine, fashion, and music to a global audience.’",
+      "source_path_or_url": "https://www.musicbusinessworldwide.com/afrofutures-vision-is-to-bring-african-art-cuisine-fashion-and-music-to-a-global-audience/",
+      "local_path": "data/corpus/business/doc_0086_AfroFuture_s_vision_is_to_bring_African_art_cuisine_fashion_.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Music Business Worldwide",
+        "author": "Murray Stassen",
+        "published": "2023-10-30T20:29:31+00:00",
+        "url": "https://www.musicbusinessworldwide.com/afrofutures-vision-is-to-bring-african-art-cuisine-fashion-and-music-to-a-global-audience/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0086:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 139,
+          "char_count": 14775
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0088",
+      "title": "ASX set to open lower as Wall Street closes September with more losses",
+      "source_path_or_url": "https://www.smh.com.au/business/markets/asx-set-to-open-lower-as-wall-street-closes-september-with-more-losses-20231002-p5e8zn.html?ref=rss&utm_medium=rss&utm_source=rss_business",
+      "local_path": "data/corpus/business/doc_0088_ASX_set_to_open_lower_as_Wall_Street_closes_September_with_m.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "The Sydney Morning Herald",
+        "author": "Stan Choe",
+        "published": "2023-10-01T18:19:08+00:00",
+        "url": "https://www.smh.com.au/business/markets/asx-set-to-open-lower-as-wall-street-closes-september-with-more-losses-20231002-p5e8zn.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0088:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 21,
+          "char_count": 5445
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0090",
+      "title": "From Ten Hag’s future to a leaking roof: Ratcliffe’s Manchester United in-tray",
+      "source_path_or_url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray",
+      "local_path": "data/corpus/business/doc_0090_From_Ten_Hag_s_future_to_a_leaking_roof_Ratcliffe_s_Manchest.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "The Guardian",
+        "author": "Jamie Jackson",
+        "published": "2023-12-25T10:00:20+00:00",
+        "url": "https://www.theguardian.com/football/2023/dec/25/ten-hag-future-jim-ratcliffe-manchester-united-in-tray"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0090:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 39,
+          "char_count": 5927
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0098",
+      "title": "Sen. Robert Menendez, facing bribery charges, stumps bank CEOs by asking how much their firms paid in settlements for allegedly ripping off consumers",
+      "source_path_or_url": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/",
+      "local_path": "data/corpus/business/doc_0098_Sen._Robert_Menendez_facing_bribery_charges_stumps_bank_CEOs.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Fortune",
+        "author": "Paolo Confino",
+        "published": "2023-12-06T21:36:17+00:00",
+        "url": "https://fortune.com/2023/12/06/sen-robert-menendez-bribery-charges-bank-ceos-cfpb-settlements/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0098:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 51,
+          "char_count": 5626
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0112",
+      "title": "Dissecting impact of Israel-Hamas conflict on markets",
+      "source_path_or_url": "https://www.thehindubusinessline.com/portfolio/personal-finance/dissecting-impact-of-israel-hamas-conflict-on-markets/article67413157.ece",
+      "local_path": "data/corpus/business/doc_0112_Dissecting_impact_of_Israel-Hamas_conflict_on_markets.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Business Line",
+        "author": "Unknown",
+        "published": "2023-10-14T15:20:36+00:00",
+        "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/dissecting-impact-of-israel-hamas-conflict-on-markets/article67413157.ece"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0112:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 59,
+          "char_count": 5601
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0113",
+      "title": "Buckle up for more ‘turbulence’ in the housing market, BofA says—it’s a housing recession, 1980s style",
+      "source_path_or_url": "https://fortune.com/2023/10/06/home-price-outlook-bank-of-america-housing-recession-turbulence-1980s-not-2008/",
+      "local_path": "data/corpus/business/doc_0113_Buckle_up_for_more_turbulence_in_the_housing_market_BofA_say.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "business",
+        "source": "Fortune",
+        "author": "Will Daniel",
+        "published": "2023-10-06T20:05:26+00:00",
+        "url": "https://fortune.com/2023/10/06/home-price-outlook-bank-of-america-housing-recession-turbulence-1980s-not-2008/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0113:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 49,
+          "char_count": 5639
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0010",
+      "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+      "source_path_or_url": "https://techcrunch.com/2023/10/06/sbf-trial-the-latest-updates-from-the-ftx-collapses-courtroom-drama/",
+      "local_path": "data/corpus/technology/doc_0010_SBF_Trial_The_latest_updates_from_the_FTX_collapse_s_courtro.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Morgan Little",
+        "published": "2023-10-06T17:22:02+00:00",
+        "url": "https://techcrunch.com/2023/10/06/sbf-trial-the-latest-updates-from-the-ftx-collapses-courtroom-drama/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0010:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 71,
+          "char_count": 7160
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0011",
+      "title": "SBF’s trial starts soon, but how did he — and FTX — get here?",
+      "source_path_or_url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/",
+      "local_path": "data/corpus/technology/doc_0011_SBF_s_trial_starts_soon_but_how_did_he_and_FTX_get_here.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Jacquelyn Melinek",
+        "published": "2023-10-01T14:00:29+00:00",
+        "url": "https://techcrunch.com/2023/10/01/ftx-lawsuit-timeline/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0011:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 61,
+          "char_count": 5778
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0012",
+      "title": "Sam Altman backs teens’ startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+      "source_path_or_url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/",
+      "local_path": "data/corpus/technology/doc_0012_Sam_Altman_backs_teens_startup_Google_unveils_the_Pixel_8_an.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Kyle Wiggers",
+        "published": "2023-10-07T20:15:26+00:00",
+        "url": "https://techcrunch.com/2023/10/07/sam-altman-backs-a-teens-startup-google-unveils-the-pixel-8-and-tiktok-tests-an-ad-free-tier/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0012:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 57,
+          "char_count": 7126
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0015",
+      "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+      "source_path_or_url": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google",
+      "local_path": "data/corpus/technology/doc_0015_Apple_defends_Google_Search_deal_in_court_There_wasn_t_a_val.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "The Verge",
+        "author": "David Pierce",
+        "published": "2023-09-26T17:01:22+00:00",
+        "url": "https://www.theverge.com/2023/9/26/23891037/apple-eddy-cue-testimony-us-google"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0015:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 45,
+          "char_count": 7695
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0016",
+      "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+      "source_path_or_url": "https://techcrunch.com/2023/11/13/more-from-the-us-v-google-trial-vertical-search-pre-installs-and-the-case-of-firefox-yahoo/",
+      "local_path": "data/corpus/technology/doc_0016_More_from_the_US_v_Google_trial_vertical_search_pre-installs.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Rebecca Bellan",
+        "published": "2023-11-13T14:37:44+00:00",
+        "url": "https://techcrunch.com/2023/11/13/more-from-the-us-v-google-trial-vertical-search-pre-installs-and-the-case-of-firefox-yahoo/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0016:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 115,
+          "char_count": 9099
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0025",
+      "title": "After warning, the EU opens investigation into X over alleged disinformation",
+      "source_path_or_url": "https://techcrunch.com/2023/10/12/eu-x-investigation/",
+      "local_path": "data/corpus/technology/doc_0025_After_warning_the_EU_opens_investigation_into_X_over_alleged.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Catherine Shu",
+        "published": "2023-10-13T00:38:56+00:00",
+        "url": "https://techcrunch.com/2023/10/12/eu-x-investigation/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0025:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 67,
+          "char_count": 7299
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0026",
+      "title": "EU fires urgent warning at Elon Musk’s X over illegal content and disinformation following Hamas attacks",
+      "source_path_or_url": "https://techcrunch.com/2023/10/10/eu-dsa-warning-elon-musk-x/",
+      "local_path": "data/corpus/technology/doc_0026_EU_fires_urgent_warning_at_Elon_Musk_s_X_over_illegal_conten.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Natasha Lomas",
+        "published": "2023-10-10T23:47:38+00:00",
+        "url": "https://techcrunch.com/2023/10/10/eu-dsa-warning-elon-musk-x/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0026:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 85,
+          "char_count": 11053
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0027",
+      "title": "Why Mozilla is betting on a decentralized social networking future",
+      "source_path_or_url": "https://techcrunch.com/2023/11/03/why-mozilla-is-betting-on-a-decentralized-social-networking-future/",
+      "local_path": "data/corpus/technology/doc_0027_Why_Mozilla_is_betting_on_a_decentralized_social_networking_.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Sarah Perez",
+        "published": "2023-11-03T17:43:00+00:00",
+        "url": "https://techcrunch.com/2023/11/03/why-mozilla-is-betting-on-a-decentralized-social-networking-future/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0027:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 83,
+          "char_count": 11088
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0031",
+      "title": "SBF, riding high on FTX, reportedly offered $5B to Trump to cancel President re-run",
+      "source_path_or_url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/",
+      "local_path": "data/corpus/technology/doc_0031_SBF_riding_high_on_FTX_reportedly_offered_5B_to_Trump_to_can.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Ingrid Lunden",
+        "published": "2023-10-02T13:11:07+00:00",
+        "url": "https://techcrunch.com/2023/10/02/sbf-60-minutes/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0031:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 69,
+          "char_count": 8092
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0033",
+      "title": "Is Google Search better than the rest? And is that fair?",
+      "source_path_or_url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology",
+      "local_path": "data/corpus/technology/doc_0033_Is_Google_Search_better_than_the_rest_And_is_that_fair.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "The Age",
+        "author": "Tim Biggs",
+        "published": "2023-10-22T18:00:00+00:00",
+        "url": "https://www.theage.com.au/technology/is-google-search-better-than-the-rest-and-is-that-fair-20231012-p5ebsk.html?ref=rss&utm_medium=rss&utm_source=rss_technology"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0033:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 21,
+          "char_count": 7655
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0034",
+      "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+      "source_path_or_url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/",
+      "local_path": "data/corpus/technology/doc_0034_News_publisher_files_class_action_antitrust_suit_against_Goo.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Sarah Perez",
+        "published": "2023-12-15T17:56:02+00:00",
+        "url": "https://techcrunch.com/2023/12/15/news-publisher-files-class-action-antitrust-suit-against-google-citing-ais-harms-to-their-bottom-line/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0034:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 51,
+          "char_count": 6394
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0039",
+      "title": "There’s something going on with AI startups in France",
+      "source_path_or_url": "https://techcrunch.com/2023/11/09/theres-something-going-on-with-ai-startups-in-france/",
+      "local_path": "data/corpus/technology/doc_0039_There_s_something_going_on_with_AI_startups_in_France.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Romain Dillet",
+        "published": "2023-11-09T14:51:44+00:00",
+        "url": "https://techcrunch.com/2023/11/09/theres-something-going-on-with-ai-startups-in-france/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0039:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 49,
+          "char_count": 5623
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0040",
+      "title": "Amazon’s iRobot purchase sucks up formal competition concerns in EU",
+      "source_path_or_url": "https://techcrunch.com/2023/11/27/eu-amazon-irobot-statement-of-objections/",
+      "local_path": "data/corpus/technology/doc_0040_Amazon_s_iRobot_purchase_sucks_up_formal_competition_concern.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Natasha Lomas",
+        "published": "2023-11-27T23:29:10+00:00",
+        "url": "https://techcrunch.com/2023/11/27/eu-amazon-irobot-statement-of-objections/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0040:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 45,
+          "char_count": 6136
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0043",
+      "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+      "source_path_or_url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/",
+      "local_path": "data/corpus/technology/doc_0043_What_to_know_about_Fortnite_maker_Epic_Games_antitrust_battl.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Sarah Perez",
+        "published": "2023-11-06T16:47:11+00:00",
+        "url": "https://techcrunch.com/2023/11/06/what-to-know-about-fortnite-maker-epic-games-antitrust-battle-with-google-starting-today/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0043:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 51,
+          "char_count": 7503
+        }
+      ]
+    },
+    {
+      "source_id": "doc_0044",
+      "title": "Founders, are events useful?",
+      "source_path_or_url": "https://techcrunch.com/2023/10/13/founders-are-events-useful/",
+      "local_path": "data/corpus/technology/doc_0044_Founders_are_events_useful.md",
+      "dataset_source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+      "license_or_permission": "ODC-BY, as declared by the original MultiHopRAG dataset",
+      "accessed_at": "2026-11-14T10:44:39+07:00",
+      "metadata": {
+        "category": "technology",
+        "source": "TechCrunch",
+        "author": "Haje Jan Kamps",
+        "published": "2023-10-13T19:05:37+00:00",
+        "url": "https://techcrunch.com/2023/10/13/founders-are-events-useful/"
+      },
+      "units": [
+        {
+          "unit_id": "doc_0044:unit_1",
+          "position": 1,
+          "start_line": 11,
+          "end_line": 67,
+          "char_count": 7131
+        }
+      ]
+    }
+  ]
+}

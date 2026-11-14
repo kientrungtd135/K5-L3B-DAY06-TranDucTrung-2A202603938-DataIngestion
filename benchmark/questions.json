@@ -1,0 +1,233 @@
+{
+  "split_policy": "15 dev and 5 test questions fixed before retrieval experiments. Gold documents are separate across splits; topics can still overlap.",
+  "selection_rule": "Choose using dev only: higher Evidence Hit@3, then higher Hit@1, then fewer stored chunks. Freeze the selected configuration before evaluating test.",
+  "gold_page_note": "For Markdown, gold_page=1 identifies the independent article unit, not a physical PDF page.",
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "question": "In the business articles, which company agreed to acquire Bendigo and Adelaide Bank’s superannuation business?",
+      "expected_answer": "Betashares",
+      "gold_source_id": "doc_0002",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0002:unit_1",
+      "evidence_quote": "ETF provider Betashares, which manages $30 billion in funds, reached an agreement to acquire Bendigo and Adelaide Bank’s superannuation business, in its first venture into the superannuation sector.",
+      "filter": {
+        "category": "business"
+      }
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "question": "What pricing condition caused Fred Ruckel’s Ripple Rug to lose its place in Amazon’s buy box?",
+      "expected_answer": "Amazon detected that the Ripple Rug was advertised for a lower price elsewhere.",
+      "gold_source_id": "doc_0003",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0003:unit_1",
+      "evidence_quote": "Amazon’s software had detected that Ruckel’s popular cat toy, called the Ripple Rug, was being sold somewhere else for a cheaper price. His product would no longer be shown in Amazon’s all-important buy box, an area of the listing where shoppers click “Add to Cart.”",
+      "filter": {}
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "question": "At which hotel in Menlo Park did Elon Musk dine with Sam Altman and researchers before the creation of OpenAI?",
+      "expected_answer": "The Rosewood hotel in Menlo Park, California.",
+      "gold_source_id": "doc_0028",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0028:unit_1",
+      "evidence_quote": "A few weeks later, Musk dined with Altman, who was then running a tech incubator, and several researchers in a private room at the Rosewood hotel in Menlo Park, California, a favoured deal-making spot close to the venture capital offices of Sand Hill Road.",
+      "filter": {}
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "question": "How much did Evolution Mining raise by selling new shares to institutional investors, and what was the price per share?",
+      "expected_answer": "$525 million at $3.80 per share.",
+      "gold_source_id": "doc_0029",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0029:unit_1",
+      "evidence_quote": "Only five large-cap stocks declined, with Evolution Mining sinking a mammoth 13 per cent after it raised $525 million selling new shares to institutional investors at $3.80 a share.",
+      "filter": {}
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "question": "For which kidney disease did Dimerix sign an exclusive licensing deal to commercialise its treatment?",
+      "expected_answer": "Focal Segmental Glomerulosclerosis.",
+      "gold_source_id": "doc_0030",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0030:unit_1",
+      "evidence_quote": "On the small-cap front, Melbourne-based biotech Dimerix more than doubled its share price to 16¢ on Thursday after the company revealed it had inked an exclusive licensing deal to commercialise its treatment for a kidney disease called Focal Segmental Glomerulosclerosis in Europe, the UK, Switzerland, Canada, Australia and New Zealand.",
+      "filter": {}
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "question": "Which crypto hedge fund did prosecutor Rehn describe as the key to Sam Bankman-Fried’s alleged scheme?",
+      "expected_answer": "Alameda Research.",
+      "gold_source_id": "doc_0032",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0032:unit_1",
+      "evidence_quote": "The key to his alleged scheme? Alameda Research, a crypto hedge fund he also owned, argued Rehn.",
+      "filter": {}
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "question": "How much did Rani Zim borrow from Mizrahi Tefahot Bank for the Psagot acquisition, and how much remained outstanding?",
+      "expected_answer": "He borrowed NIS 255 million; NIS 120 million remained outstanding.",
+      "gold_source_id": "doc_0074",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0074:unit_1",
+      "evidence_quote": "To finance the acquisition, Zim took a loan of NIS 255 million from Mizrahi Tefahot Bank, which he offloaded onto the acquired investment house. NIS 120 million is still outstanding.",
+      "filter": {}
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "question": "According to the report on rising bond yields, how can higher yields affect stock prices and borrowing costs?",
+      "expected_answer": "They can lower stock prices and slow the economy by making borrowing more expensive.",
+      "gold_source_id": "doc_0075",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0075:unit_1",
+      "evidence_quote": "Higher yields can knock down prices for stocks and slow the economy by making borrowing more expensive.",
+      "filter": {}
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "question": "On which weekday and at what Pacific time does TechCrunch’s Chain Reaction newsletter arrive?",
+      "expected_answer": "Thursdays at 12 p.m. PT.",
+      "gold_source_id": "doc_0010",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0010:unit_1",
+      "evidence_quote": "You can also follow along with her and the TechCrunch team’s coverage in the Chain Reaction newsletter, which drops Thursdays at 12 p.m. PT, and the Chain Reaction podcast, which will hit your feed every Thursday.",
+      "filter": {}
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "question": "How much did FTX raise in its January 2022 Series C round, and what valuation did that round give the company?",
+      "expected_answer": "$400 million, bringing its valuation to $32 billion.",
+      "gold_source_id": "doc_0011",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0011:unit_1",
+      "evidence_quote": "In January 2022, the company raised $400 million in a Series C round, boosting its valuation to $32 billion.",
+      "filter": {}
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "question": "Within the technology category, which startup converts businesses’ plain-English back-office instructions into pseudo-code in real time?",
+      "expected_answer": "Induced AI.",
+      "gold_source_id": "doc_0012",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0012:unit_1",
+      "evidence_quote": "Manish writes that Induced AI, founded this year, lets businesses input their back-office tasks in plain English and converts the instructions to pseudo-code in real time.",
+      "filter": {
+        "category": "technology"
+      }
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "question": "What is the name and acronym of the agreement that makes Google Search the default on Apple products?",
+      "expected_answer": "The Information Services Agreement (ISA).",
+      "gold_source_id": "doc_0015",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0015:unit_1",
+      "evidence_quote": "Apple is in court because of something called the Information Services Agreement, or ISA: a deal that makes Google’s search engine the default on Apple’s products.",
+      "filter": {}
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "question": "If Judge Amit Mehta rules against Google in the antitrust case, what might Google have to share with third-party developers?",
+      "expected_answer": "Its APIs; the article describes this as a possible outcome, not a guaranteed requirement.",
+      "gold_source_id": "doc_0016",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0016:unit_1",
+      "evidence_quote": "If Judge Amit Mehta rules against Google, the search giant may have to change its behavior and share its APIs with third-party developers.",
+      "filter": {}
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "question": "Under the DSA discussion in the article about X, what additional sanction could repeated infringements trigger besides fines?",
+      "expected_answer": "Potential blocking of the service.",
+      "gold_source_id": "doc_0025",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0025:unit_1",
+      "evidence_quote": "Non-compliance under DSA rules, meanwhile, could trigger fines of up to 6% of annual turnover, plus potential blocking of a service for repeated infringements.",
+      "filter": {}
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "question": "Does the EU warning article say disinformation is illegal in the EU per se, and what DSA duty does it describe for X regarding harmful falsehoods?",
+      "expected_answer": "No. It says disinformation is not illegal per se, but the DSA obliges X to mitigate risks attached to harmful falsehoods.",
+      "gold_source_id": "doc_0026",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0026:unit_1",
+      "evidence_quote": "Unlike terrorism content, disinformation is not illegal in the EU per se. However, the EU’s Digital Services Act (DSA) puts an obligation on X — as a so-called very large online platform — to mitigate risks attached to harmful falsehoods as well as to act diligently on reports of illegal content.",
+      "filter": {}
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "question": "How many attendees came to AfroFuture’s inaugural festival at the Accra Polo Court on December 29, 2017?",
+      "expected_answer": "4,600 attendees.",
+      "gold_source_id": "doc_0086",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0086:unit_1",
+      "evidence_quote": "The inaugural festival took place on December 29, 2017, at the Accra Polo Court, attracting 4,600 attendees.",
+      "filter": {}
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "question": "In Bank of America’s housing analysis, what share of purchase and refinance loans were adjustable-rate mortgages, compared with the pre-GFC peak?",
+      "expected_answer": "Less than 5%, compared with over 35% at the peak of the pre-GFC housing cycle.",
+      "gold_source_id": "doc_0113",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0113:unit_1",
+      "evidence_quote": "Adjustable-rate mortgages can lead to higher default rates when interest rates rise, but they now represent less than 5% of total purchase and refinance loans, compared with over 35% at the peak of the pre-GFC housing cycle.",
+      "filter": {}
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "question": "Which protocol allows decentralized social networking applications such as Mastodon to communicate with one another?",
+      "expected_answer": "ActivityPub.",
+      "gold_source_id": "doc_0027",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0027:unit_1",
+      "evidence_quote": "The mission-driven tech company behind the Firefox browser, Pocket reader and other apps is now investing its energy into the so-called “fediverse” — a collection of decentralized social networking applications, like Mastodon, that communicate with one another over the ActivityPub protocol.",
+      "filter": {}
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "question": "In what year did Facebook establish its Paris AI research lab, and who was at the helm of the AI initiative?",
+      "expected_answer": "2015, with Yann LeCun at the helm.",
+      "gold_source_id": "doc_0039",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0039:unit_1",
+      "evidence_quote": "For instance, Facebook (now Meta) created its Paris research lab back in 2015 with Yann LeCun at the helm of the AI initiative — this research group is called FAIR, for Facebook Artificial Intelligence Research.",
+      "filter": {}
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "question": "Within the technology category, does the EU’s formal statement of objections confirm it will block Amazon’s proposed iRobot acquisition?",
+      "expected_answer": "No. It does not confirm a block; it may push Amazon to offer remedies to settle the investigation.",
+      "gold_source_id": "doc_0040",
+      "gold_page": 1,
+      "gold_unit_id": "doc_0040:unit_1",
+      "evidence_quote": "The step does not confirm the EU will seek to block the deal but it shows antitrust regulators do remain concerned. It could therefore push Amazon to offer remedies to EU authorities to settle the investigation and avoid the risk of the acquisition being blocked.",
+      "filter": {
+        "category": "technology"
+      }
+    }
+  ]
+}

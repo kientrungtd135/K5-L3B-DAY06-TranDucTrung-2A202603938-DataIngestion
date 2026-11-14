@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-11-14T05:15:04.893740+00:00",
+  "evaluated_split": "test",
+  "test_retrieval_performed": true,
+  "selection_changed": false,
+  "selected_strategy_frozen": "B",
+  "config_sha256": "9b2b7ffeb486c59425fb8ac32abb7bba01be2dd34fa7d7f1da4d3fb7be0dafe6",
+  "corpus_manifest_sha256": "9f482c303e81b092b96dba83249810c055bd6bfc6a045e067e09e47b597a3ae9",
+  "corpus_content_sha256": "a71bd882f55ff2c8400913246ce9da06309e0e1f2545b4ee1f6bdd6a50ba6d59",
+  "benchmark_sha256": "9efc2e7a7e4c605cf02b044bb8b16d300cdfcad886707e45e4f597e2991189f6",
+  "embedding_provider": "CKEY",
+  "embedding_endpoint": "https://api.xah.io/v1",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "query_count": 5,
+  "trace_count": 15,
+  "retrieval_top_k": 3,
+  "retrieval_metrics": {
+    "A": {
+      "test": {
+        "N": 5,
+        "hit@1": {
+          "hits": 4,
+          "denominator": 5,
+          "rate": 0.8
+        },
+        "hit@3": {
+          "hits": 5,
+          "denominator": 5,
+          "rate": 1.0
+        }
+      }
+    },
+    "B": {
+      "test": {
+        "N": 5,
+        "hit@1": {
+          "hits": 4,
+          "denominator": 5,
+          "rate": 0.8
+        },
+        "hit@3": {
+          "hits": 5,
+          "denominator": 5,
+          "rate": 1.0
+        }
+      }
+    },
+    "C": {
+      "test": {
+        "N": 5,
+        "hit@1": {
+          "hits": 4,
+          "denominator": 5,
+          "rate": 0.8
+        },
+        "hit@3": {
+          "hits": 5,
+          "denominator": 5,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "resources": {
+    "timings_seconds": {
+      "preflight_validation": 0.0394629999937024,
+      "read_only_index_validation": 0.7022496999998111,
+      "query_embedding_shared_across_strategies": {
+        "total": 5.614747800020268,
+        "per_question": {
+          "q16": 2.745734700001776,
+          "q17": 0.8610300000000279,
+          "q18": 0.8704055999987759,
+          "q19": 0.6373534000013024,
+          "q20": 0.5002241000183858
+        }
+      },
+      "retrieval_by_strategy": {
+        "A": 0.16865899998811074,
+        "B": 0.3736798999889288,
+        "C": 0.1889744999643881
+      },
+      "test_run_elapsed_including_validation_and_audit_export": 7.574358799989568,
+      "elapsed_time_scope": "TEST-only validation, query embedding, retrieval and audit export; not corpus ingestion or the full DEV+TEST pipeline."
+    },
+    "api_usage": {
+      "test_query_embeddings": {
+        "sdk_request_calls": 5,
+        "usage_available": true,
+        "prompt_tokens": 118,
+        "total_tokens": 118,
+        "estimated_cost_usd": 0.0012,
+        "cost_estimation": "Sum per response of max(prompt_tokens * $0.0448/1M, $0.00024 minimum/request)."
+      },
+      "document_embeddings_performed": false,
+      "corpus_ingestion_performed": false,
+      "request_count_note": "Counts OpenAI SDK embeddings.create calls; SDK-internal HTTP retries are not separately exposed.",
+      "cost_note": "Estimated from CKEY's listed input price/minimum charge, not provider billing records."
+    }
+  },
+  "index_validation": {
+    "table": "public.day6_chunks",
+    "row_counts": {
+      "A": 562,
+      "B": 701,
+      "C": 701
+    },
+    "document_count_per_strategy": {
+      "A": 30,
+      "B": 30,
+      "C": 30
+    },
+    "vector_dimensions": 1536,
+    "b_c_identical_chunks_metadata_vectors": true,
+    "approximate_vector_indexes": false,
+    "database_versions": {
+      "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+      "pgvector": "0.8.7"
+    }
+  },
+  "audit_row_counts": {
+    "manual_coherence.csv": 30,
+    "manual_grounding.csv": 15,
+    "manual_metadata.csv": 45
+  }
+}

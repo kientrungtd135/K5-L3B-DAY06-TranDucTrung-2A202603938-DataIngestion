@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id, source, page, category",none,CKEY text-embedding-3-small (1536 dimensions),Fixed overlapping windows may retain enough context for evidence retrieval.,9/15 (0.6000),11/15 (0.7333),4/5 (0.8000),5/5 (1.0000),562 stored chunks; B was selected on DEV before TEST and the selection remained frozen.
+B,by_paragraph,500,,"document_id, source, page, category",none,CKEY text-embedding-3-small (1536 dimensions),Paragraph grouping may preserve coherent evidence within the same size limit.,14/15 (0.9333),15/15 (1.0000),4/5 (0.8000),5/5 (1.0000),701 stored chunks; selected on DEV before TEST and unchanged after TEST.
+C,by_paragraph (same chunks as B),500,,"document_id, source, page, category",question-provided category only,CKEY text-embedding-3-small (1536 dimensions),Category filtering may improve retrieval for questions that explicitly request it.,14/15 (0.9333),15/15 (1.0000),4/5 (0.8000),5/5 (1.0000),701 stored chunks; B was selected on DEV before TEST; C reuses B chunks/vectors and TEST did not change the selection.

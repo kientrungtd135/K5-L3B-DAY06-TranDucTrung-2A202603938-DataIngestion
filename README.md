@@ -6,17 +6,30 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 | 📄 Dữ liệu | 🧩 Chiến lược | 🎯 Benchmark |
 |---|---|---|
-| Tối thiểu **30 trang nội dung** | Tối thiểu **3 cấu hình** | Tối thiểu **20 câu hỏi** |
+| Corpus này: **30 bài Markdown độc lập** | **3 cấu hình** A/B/C | **20 câu hỏi**, 15 dev / 5 test |
 
-## Bắt đầu nhanh
+## Chạy bài đã hoàn thành (Windows PowerShell)
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+Pipeline dùng PostgreSQL + pgvector, đọc corpus được liệt kê trong manifest và benchmark ở `benchmark/questions.json`. Cách setup, cấu hình `.env` và chi tiết output nằm trong [starter/README.md](starter/README.md).
+
+Từ thư mục gốc repository:
+
+```powershell
+Set-Location .\starter
+docker compose -p day6_student_starter up -d --wait
+& .\.venv\Scripts\python.exe -m src.run
+& .\.venv\Scripts\python.exe -m src.run --split test
+```
+
+Lệnh mặc định chạy DEV; TEST phải dùng index đã tạo và cấu hình đã cố định. Chạy DEV có gọi API để tạo embedding tài liệu và câu hỏi; TEST chỉ embed câu hỏi. Các lệnh có thể phát sinh chi phí API. Nếu chỉ cần xem kết quả đã lưu, không cần chạy lại pipeline: xem [starter/results/](starter/results/) và [báo cáo cá nhân](report/individual/2A202603938_TranDucTrung.md). Không commit `starter/.env`.
+
+Trước khi chạy lại TEST, hãy bảo quản các CSV audit đã duyệt bên ngoài `starter/results/`. TEST sẽ dừng trước API, database và thao tác ghi nếu phát hiện điểm, nhãn, lý do hoặc `review_status` hiện có. Chỉ khi đã giữ bản audit cần thiết và chủ định tạo lại kết quả, hãy chuyển các CSV audit cũ ra khỏi thư mục results; bảng chưa chấm hoặc chưa tồn tại vẫn được phép tạo.
 
 ## 1. Xây pipeline
 
 ![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
 
-Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, trang/vị trí** và metadata phù hợp. Dùng embedding model thật qua API hoặc chạy local; lưu và truy xuất bằng pgvector, Qdrant, Chroma hoặc một store tương đương.
+Corpus của bài nằm ở [starter/data/corpus/](starter/data/corpus/), nguồn và attribution được ghi trong [manifest](starter/data/manifest.json). Manifest ghi ODC-BY theo khai báo của dataset MultiHopRAG; điều đó không xác nhận license hay quyền tái phân phối riêng của từng bài báo. Repo không có minh chứng quyền riêng từ từng nhà xuất bản; cần xác minh quyền áp dụng trước khi tiếp tục phân phối nội dung, đồng thời giữ nguồn và attribution phù hợp. Pipeline giữ **ID tài liệu, nguồn, đơn vị truy vết** và metadata phù hợp; dùng embedding API thật và PostgreSQL + pgvector.
 
 ## 2. So sánh và đánh giá
 
@@ -28,9 +41,9 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 
 ## 3. Chuẩn bị bài nộp
 
-1. Chạy pipeline và lưu cấu hình, kết quả top-3, trace cùng nhãn đánh giá thủ công.
-2. Điền [thông tin học viên](STUDENT.md), [nhật ký thí nghiệm](artifacts/experiment_log.csv) và bản sao [mẫu báo cáo cá nhân](report/individual/MSSV_HoTen.md).
-3. Kiểm tra mã nguồn, cách chạy, manifest dữ liệu và checklist trong [SUBMISSION.md](SUBMISSION.md).
+1. Kết quả thực nghiệm, trace top-3, cấu hình và audit đã lưu trong [starter/results/](starter/results/).
+2. Thông tin học viên ở [STUDENT.md](STUDENT.md), nhật ký ở [artifacts/experiment_log.csv](artifacts/experiment_log.csv), báo cáo ở [report/individual/2A202603938_TranDucTrung.md](report/individual/2A202603938_TranDucTrung.md).
+3. Đối chiếu manifest, quyền dữ liệu và checklist nộp bài trong [SUBMISSION.md](SUBMISSION.md).
 
 ## Tài liệu hướng dẫn
 
@@ -44,4 +57,4 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Quy tắc sử dụng dữ liệu, AI và API | [RULES.md](RULES.md) |
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
-[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus của bài. Pipeline đã hiện thực ở [starter/src/](starter/src/), benchmark ở [benchmark/questions.json](benchmark/questions.json); không bắt buộc xây chatbot.

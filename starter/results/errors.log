@@ -1,0 +1,5 @@
+NOTE: API cost is an estimate based on CKEY's listed price and per-request minimum, not a billing record.
+NOTE: C reused B's document vectors; C embedding time and cost are incremental (not independent-run) values.
+NOTE: TEST ran only five benchmark questions across A/B/C; no corpus document was embedded or ingested.
+NOTE: TEST elapsed time includes preflight, read-only index validation, query embedding, retrieval and audit generation/export; it is not ingest or full-pipeline time.
+NOTE: TEST API cost is an estimate based on CKEY's listed price and per-request minimum, not a billing record.
